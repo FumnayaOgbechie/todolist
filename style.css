@@ -1,0 +1,94 @@
+body{
+    margin:0;
+    padding: 0;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+section{
+    font-weight: bolder;
+    background-color: #0D0D0D;
+    padding: 10px;
+    font-size: 20px;
+}
+section h2, i{
+    color:#4EA8DE;
+    margin-right: 15px;
+}
+section h2 span{
+    color:#5E60CE;
+}
+.content{
+    background-color: #191919;
+    height: 100vh;
+    text-align: center;
+    
+}
+.note {
+    display: flex;
+    justify-content: space-between;
+}
+.span1{
+    color:#4EA8DE;
+    margin-right: 0;
+}
+.span2{
+    color: #5E60CE;
+    margin-left: auto;
+}
+.onediv{
+    margin: 0 auto;
+    text-align: center;
+    width: 500px;
+    height: 400px;
+    margin-top: 2rem;
+    padding-top: 1rem;
+}
+hr{
+    border-color:  #1b1b1b;
+}
+.search input{
+    margin-right: 0;
+    padding: 0.5rem 4rem;
+    background-color: #262626;
+    border-style: none;
+}
+.search button{
+    margin-left: 0;
+    padding: 0.4rem 0.7rem;
+    background-color: #1E6F9F;
+    border-style: none;
+}
+.card{
+    background-color: #262626 !important;
+    color: white;
+    margin-top: 2rem;
+    border-radius: 0.5rem;
+    padding: 0.5rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card input, .card span{
+    margin-right: auto;
+    
+}
+.card a{
+    margin-left: auto;
+    margin-right: 0;
+    padding: 0;
+}
+small{
+    margin-right: 10px;
+    margin-left: 0px;
+}
+.card input{
+    margin-left: 10px;
+}
+.card span{
+    margin-left: 0;
+}
+
+.delete{
+    margin-left: 0;
+    padding-left: 0;
+}
